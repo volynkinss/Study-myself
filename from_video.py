@@ -1,3 +1,5 @@
+# Doing exersises for teach python
+
 # name = "John Smith"
 # age = 20
 # new_patient = True
@@ -120,9 +122,9 @@
 # print(list_of_numbers)
 # DEBILL
 
-list_of_numbers = input("Введите числа через пробел: ").split()
-unical = []
-for number in list_of_numbers:
-    if number not in unical:
-        unical.append(number)
-print(unical)
+# list_of_numbers = input("Введите числа через пробел: ").split()
+# unical = []
+# for number in list_of_numbers:
+#    if number not in unical:
+#        unical.append(number)
+# print(unical)
