@@ -128,3 +128,111 @@
 #    if number not in unical:
 #        unical.append(number)
 # print(unical)
+
+# numbers = {
+#    "1": "one",
+#    "2": "two",
+#    "3": "three",
+#    "4": "four",
+#    "5": "five",
+#    "6": "six",
+#    "7": "seven",
+#    "8": "eight",
+#    "9": "nine",
+#    "0": "zero",
+# }
+# text_phone = ""
+# phone_number = input("Phone: ")
+# for num in phone_number:
+#    text_phone += numbers.get(num, "!") + " "
+#    print(numbers[num], " ", end="")
+# print(text_phone)
+
+
+# create function of convert smile to emojies
+# def convert_massege(message):
+#    words = message.split(" ")
+#    emojis = {":)": "🙂", ":(": "😒"}
+#    reform_message = ""
+#    for word in words:
+#        reform_message += emojis.get(word, word) + " "
+#    return reform_message
+#
+#
+# message = input(">")
+# print(convert_massege(message))
+#
+# message_two = input("...")
+# print(convert_massege(message_two))
+
+# exceptions
+# try:
+#    age = int(input("Age: "))
+#    imcome = 20000
+#    risk = imcome / age
+#    print(risk)
+#    print(age)
+# except ValueError:
+#    print("Invalid value")
+# except ZeroDivisionError:
+#    print("Age can not be 0!")
+
+
+# classes & constructions
+# class Point:
+#    def __init__(self, x, y):
+#        pass
+
+#    def move(self):
+#        print("move")
+
+#    def draw(self):
+#        print("draw")
+
+
+# point1 = Point()
+# point1.x = 10
+# point1.y = 20
+# print(point1.x)
+# point1.draw()
+
+# point2 = Point()
+# point2.draw()
+
+# classes & constructions practice
+# class Person:
+#    def __init__(self, name):
+#        self.name = name
+#
+#    def talk(self):
+#        print(f"Hi, I am {self.name}. Nice to see you!")
+
+
+# Nick = Person("Nick")
+# Nick.talk()
+
+# Vlad = Person("Vladlen")
+# Vlad.talk()
+
+# from utils import find_max
+
+# list_of_num = input("Введите числа через пробел: ").split()
+# maximum = find_max(list_of_num)
+# print(maximum)
+
+# 2 Dice
+import random
+
+
+class Dice:
+    def roll(self):
+        numbers = (1, 2, 3, 4, 5, 6)
+        throw = random.choice(numbers)
+        return throw
+
+
+# Dice.roll()
+
+dice1 = Dice()
+dice2 = Dice()
+print(dice1.roll(), ",", dice2.roll())
