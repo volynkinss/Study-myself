@@ -234,5 +234,5 @@ class Dice:
 # Dice.roll()
 
 dice1 = Dice()
-dice2 = Dice()
-print(dice1.roll(), ",", dice2.roll())
+# dice2 = Dice()
+print(dice1.roll(), ",", dice1.roll())
