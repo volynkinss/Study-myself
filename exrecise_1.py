@@ -1,4 +1,4 @@
-# Displaying even numbers from 1 to 10
+# Displaying even numbers in range
 
 numbers = range(1, 10)
 even_numbers = 0
