@@ -221,18 +221,18 @@
 # print(maximum)
 
 # 2 Dice
-import random
+# import random
 
 
-class Dice:
-    def roll(self):
-        numbers = (1, 2, 3, 4, 5, 6)
-        throw = random.choice(numbers)
-        return throw
+# class Dice:
+#     def roll(self):
+#         numbers = (1, 2, 3, 4, 5, 6)
+#         throw = random.choice(numbers)
+#         return throw
 
 
-# Dice.roll()
+# # Dice.roll()
 
-dice1 = Dice()
-# dice2 = Dice()
-print(dice1.roll(), ",", dice1.roll())
+# dice1 = Dice()
+# # dice2 = Dice()
+# print(dice1.roll(), ",", dice1.roll())
